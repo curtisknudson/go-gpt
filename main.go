@@ -51,7 +51,3 @@ func main() {
 
 	fmt.Println(resp.Choices[0].Message.Content)
 }
-
-func MustGetEnv(s string) {
-	panic("unimplemented")
-}
