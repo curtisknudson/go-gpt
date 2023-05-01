@@ -21,8 +21,6 @@ func main() {
 
 	var KEY = MustGetenv("CHATGPT")
 
-	fmt.Print(KEY)
-
 	if len(os.Args) < 2 {
 		fmt.Println("Usage: chat <message>")
 		return
